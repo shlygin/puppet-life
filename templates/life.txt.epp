@@ -1,0 +1,7 @@
+<%- | Array $life_field | -%>
+<%- $life_field.each |$pos_y, $row| { -%>
+  <%- $row.each |$pos_x, $cell| { -%>
+    <%- if $cell != 0 { -%>X<%- } -%>
+    <%- else { -%>o<%- } -%>
+  <%- } %>
+<%- } -%>

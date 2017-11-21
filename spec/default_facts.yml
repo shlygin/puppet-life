@@ -1,0 +1,13 @@
+# Use default_module_facts.yml for module specific facts.
+#
+# Facts specified here will override the values provided by rspec-puppet-facts.
+---
+concat_basedir: "/tmp"
+ipaddress: "172.16.254.254"
+is_pe: false
+macaddress: "AA:AA:AA:AA:AA:AA"
+life_points:
+  - - '0'
+life_size:
+  x: 1
+  y: 1
